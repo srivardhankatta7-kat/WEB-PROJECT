@@ -1,76 +1,16 @@
-<p align="center">
-  <a href="https://tailwindcss.com" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg">
-      <img alt="Tailwind CSS" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg" width="350" height="70" style="max-width: 100%;">
-    </picture>
-  </a>
-</p>
+# Installation
+> `npm install --save @types/react-dom`
 
-<p align="center">
-  A utility-first CSS framework for rapidly building custom user interfaces.
-</p>
+# Summary
+This package contains type definitions for react-dom (https://react.dev/).
 
-<p align="center">
-    <a href="https://github.com/tailwindlabs/tailwindcss/actions"><img src="https://img.shields.io/github/actions/workflow/status/tailwindlabs/tailwindcss/ci.yml?branch=main" alt="Build Status"></a>
-    <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
-    <a href="https://github.com/tailwindlabs/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
-    <a href="https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
-</p>
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom.
 
----
+### Additional Details
+ * Last updated: Wed, 09 Sep 2026 18:05:03 GMT
+ * Dependencies: none
+ * Peer dependencies: [@types/react](https://npmjs.com/package/@types/react)
 
-## Documentation
-
-For full documentation, visit [tailwindcss.com](https://tailwindcss.com).
-
-## Community
-
-For help, discussion about best practices, or feature ideas:
-
-[Discuss Tailwind CSS on GitHub](https://github.com/tailwindlabs/tailwindcss/discussions)
-
-## Contributing
-
-If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
-
----
-
-## `@tailwindcss/vite` plugin API
-
-### Enabling or disabling Lightning CSS
-
-By default, this plugin detects whether or not the CSS is being built for production by checking the `NODE_ENV` environment variable. When building for production Lightning CSS will be enabled otherwise it is disabled.
-
-If you want to always enable or disable Lightning CSS the `optimize` option may be used:
-
-```js
-import tailwindcss from '@tailwindcss/vite'
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-  plugins: [
-    tailwindcss({
-      // Disable Lightning CSS optimization
-      optimize: false,
-    }),
-  ],
-})
-```
-
-It's also possible to keep Lightning CSS enabled but disable minification:
-
-```js
-import tailwindcss from '@tailwindcss/vite'
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-  plugins: [
-    tailwindcss({
-      // Enable Lightning CSS but disable minification
-      optimize: { minify: false },
-    }),
-  ],
-})
-```
+# Credits
+These definitions were written by [Asana](https://asana.com), [AssureSign](http://www.assuresign.com), [Microsoft](https://microsoft.com), [MartynasZilinskas](https://github.com/MartynasZilinskas), [Josh Rutherford](https://github.com/theruther4d), [Jessica Franco](https://github.com/Jessidhia), and [Sebastian Silbermann](https://github.com/eps1lon).
